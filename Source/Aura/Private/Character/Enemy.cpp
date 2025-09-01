@@ -44,3 +44,8 @@ void AEnemy::UnHighlightActor()
 	GetMesh()->SetRenderCustomDepth(false);
 	Weapon->SetRenderCustomDepth(false);
 }
+
+int32 AEnemy::GetCharacterLevel()
+{
+	return Level;
+}
